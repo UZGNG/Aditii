@@ -1,0 +1,203 @@
+/* Universal Styling Begin */
+
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #1b0000;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    color: #1b0000;
+    background-color: tan;
+    border-radius: 10px;
+    height: 20px;
+}
+
+button:hover{
+    transform: rotateX(360deg);
+    transition-duration: 1s;
+
+}
+
+
+/* Universal Styling End */
+
+.top-header-inner{
+    /* border: steelblue solid 1px; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+    margin-left: 200px;
+}
+
+h1{
+    color: #1b0000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+form{
+    margin-top: 25px;
+}
+
+.cart{
+    /* border: 1px solid rebeccapurple; */
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.cart-price{
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+.cart-img{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.bottom-header{
+    background-color:tan;
+    margin-top: -30px;
+    text-align: center;
+
+}
+
+.nav-list-item{
+    
+    font-size: 12px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-left: 150px;
+    height: 50px;
+    padding-top: 17px;
+    width: 960px;
+}
+
+.main-content{
+    background-color: #1b0000;
+    margin-top: 0;
+}
+
+.main-content-inner{
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+    margin-left: 150px;
+}
+
+.unique-desc{
+    width: 200px;
+    color: tan;
+}
+
+.featured-set{
+    height: 300px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 5px;
+
+}
+
+.main-content2-inner{
+    display: flex;
+    margin-left: 200px;
+    padding-top: 20px;
+    /* padding-left: 100px; */
+    width: 960px;
+    justify-content: space-evenly;
+}
+
+.main2-img{
+    width: calc(600px/3);
+    height: calc(600px/3);
+}
+
+.price-button{
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    /* border: red 1px solid; */
+}
+
+.button-shopnow{
+    margin-top: 15px;
+}
+
+.main-content3{
+    background-color: tan;
+    color: #1b0000;
+    height: 50px;
+    padding-top: 1px;
+    margin-top: 5px;
+}
+
+.main-content4{
+    margin-left: 75px;
+    width: 1200px;
+    /* border: 1px red solid; */
+}
+
+.row{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.img4{
+    height: 180px;
+    width: 180px;
+}
+
+.footer-inner{
+    display: flex;
+    margin-left: 115px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-list{
+    padding-left: 100px;
+}
+
+.footer{
+   background-color:tan; 
+   color: #1b0000;
+}
+
+.colophon{
+    background-color: #1b0000;
+    color: tan;
+    height: 50px;
+    padding-top: 1px;
+    padding-left: 20px;
+}
+
+
+.git-link{
+    color: tan;
+}
